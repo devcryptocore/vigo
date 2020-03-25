@@ -1,5 +1,6 @@
 # vigo
 <h1>Simple Herramienta para obtener fotografías del dispositivo que reciba el enlace.</h1>
+<p>Se usa un poco de ingeniería social, para lograr que la vícima otorgue permiso para usar su cámara y obtener fotografías a partir de ella.</p>
 <br>
 <h2>Instalación:</h2>
 <br>
