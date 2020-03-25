@@ -1,0 +1,161 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+body
+{
+	background-image: url(images/bg.jpg);
+	margin: auto;
+
+}
+
+#container-main{
+	margin:40px auto;
+	width:95%;
+	min-width:320px;
+	max-width:960px;
+}
+
+#container-main h1{
+	font-size: 40px;
+	text-shadow:4px 4px 5px #16a085;
+}
+
+.accordion-container {
+	width: 100%;
+	margin: 0 0 20px;
+	clear:both;
+}
+
+.accordion-titulo {
+	position: relative;
+	display: block;
+	padding: 20px;
+	font-size: 24px;
+	font-weight: 300;
+	background: #2c3e50;
+	color: #fff;
+	text-decoration: none;
+}
+.accordion-titulo.open {
+	background: #16a085;
+	color: #fff;
+}
+.accordion-titulo:hover {
+	background: #1abc9c;
+}
+
+.accordion-titulo span.toggle-icon:before {
+	content:"+";
+}
+
+.accordion-titulo.open span.toggle-icon:before {
+	content:"-";
+}
+
+.accordion-titulo span.toggle-icon {
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	font-size: 38px;
+	font-weight:bold;
+}
+
+.accordion-content {
+	display: none;
+	padding: 20px;
+	overflow: auto;
+}
+
+.accordion-content p{
+	margin:0;
+}
+
+.accordion-content img {
+	display: block;
+	float: left;
+	margin: 0 15px 10px 0;
+	width: 50%;
+	height: auto;
+}
+
+
+@media (max-width: 767px) {
+	.accordion-content {
+		padding: 10px 0;
+	}
+}
+
+
+h2
+{
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	color: white;
+	text-shadow: 2px 0px 9px black;
+}
+
+img{
+
+	margin-top: 50px;
+	padding-left: auto;
+	padding-right: auto;
+}
+
+div{
+	
+	text-align: center;
+	margin-top: 30px;
+	color: #ff3d00;
+	font-size: 20px;
+	font-family: sans-serif;
+	text-shadow: 3px 2px 6px black
+
+}
+
+input{
+
+	text-align: left;
+	border-radius: 10px;
+	width: 250px;
+	height: 40px;
+	box-sizing: 10px;
+	
+}
+
+
+
+button{
+
+	color: #504e4e;
+	margin-top: 20px;
+	font-size: 18px;
+	font-family: "Roboto", sans-serif;
+	background-color: #f8bd02;
+	width: 250px;
+	height: 50px;
+	border-radius: 10px;
+	text-align: center;
+	border-bottom-width: 0px;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+}
+
+h3{
+	margin-top: 50px;
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+	color: #252525;
+}
+footer
+{	
+	padding-top: 25px;
+	background-color: #3e3e3e;
+	height: 100px;
+	margin-top: 20px;
+	text-align: center;
+	font-family: "Consolas", sans-serif;
+	font-size: 15px;
+	color: #9E9E9E;
+	font-size: 17px;
+}

