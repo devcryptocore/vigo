@@ -4,11 +4,14 @@
 <br>
 <h2>Instalación:</h2>
 <br>
+<p><strong>En Termux, se necesita instalar Openssh y PHP:</strong></p>
+<p>pkg install openssh<br>pkg install php</p>
 <p>[-] <strong>git clone https://github.com/InformaticayHacking/vigo</strong></p>
 <p>[-] <strong>cd vigo</strong></p>
 <p>[-] <strong>pip install -r requirements.txt</strong></p>
 <p>Esta herramienta, funciona tanto en kali Linux, como en Termux.</p>
 <br>
+<p>Es recomendable ejecutar el tunel ssh por primera vez de forma manual.</p>
 <h2>Uso:</h2>
 <br>
 <p>[-] <strong>python vigo.py</strong></p>
