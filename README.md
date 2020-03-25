@@ -12,5 +12,7 @@
 <br>
 <p>[-] <strong>python vigo.py</strong></p>
 <img src="1.png">
+<br>
+<img src="2.png">
 <p><strong>Página Web: </strong>https://informaticayhacking.com</p>
 <p><strong>Nuestro grupo en Telegram: </strong>https://t.me/Informatica_y_Hacking</p>
