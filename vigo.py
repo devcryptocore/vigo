@@ -106,7 +106,7 @@ def proceso():
 		tam = len(glob.glob('vigo/foto/captura/*.png'))
 		if tam == 0 and mrc == False:
 			print ('\n' + sign + ci + ' Esperando interacción de la víctima...' + r + '\n')
-			print (sign + am + 'Si la interacción tarda demesiado,')
+			print (sign + am + 'Si la interacción tarda demasiado,')
 			print (sign + am + 'Presione ' + rj + 'Ctrl + C' + r + am + ' para salir.\n' + r)
 			mrc = True
 		if tam > 0:
