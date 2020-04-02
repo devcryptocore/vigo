@@ -89,6 +89,7 @@ def proceso():
 		subp.Popen(['php', '-S', 'localhost:4344', '-t', 'vigo/foto'], stderr=mphp, stdout=mphp)
 	with open('mssh.log', 'w') as mssh:
 		opr = subp.Popen(['ssh', '-R', '80:localhost:4344', 'ssh.localhost.run'], stdout = mssh)
+	time.sleep(5)
 	os.system('clear')
 	time.sleep(3)
 	with open('mssh.log', 'r') as mssh:
